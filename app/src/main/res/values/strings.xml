@@ -2,4 +2,8 @@
     <string name="app_name">Republic2020</string>
     <string name="open_audio_hint">Open the audio</string>
     <string name="make_some_noise">Make some noise</string>
+    <string name="title_main_wish">Happy Republic Day! 🇮🇳</string>
+    <string name="msg_main_tap">"Want to add some fun to our 71st republic day ?? Tap anywhere on the screen 😜 "</string>
+    <string name="action_got_it">GOT IT!</string>
+    <string name="main_sub_title_tap">"Tap anywhere on the screen! 🧨 "</string>
 </resources>

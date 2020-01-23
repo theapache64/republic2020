@@ -126,9 +126,6 @@ public class NightScene extends SurfaceView implements AudioManager.OnAudioFocus
 
     public void randomFire() {
         long time = System.currentTimeMillis() - lastFireTime;
-        System.out.println("Waiting list size : " + waitingList.size());
-        System.out.println("Sparks size : " + sparks.size());
-        System.out.println("Recycler size : " + recycleList.size());
         //implement basic weak boundary check
         if (sparks.size() < 500) {
             float x = (-mRandom.nextFloat() * sceneWidth * .5f + sceneWidthHalf) * .2f;
