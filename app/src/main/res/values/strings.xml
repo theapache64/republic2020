@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Republic2020</string>
+    <string name="open_audio_hint">Open the audio</string>
+    <string name="make_some_noise">Make some noise</string>
 </resources>

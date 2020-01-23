@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -17,8 +18,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.theapache64.republic2020.IndianFlag
+        android:id="@+id/flag"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,9 +31,9 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:src="@drawable/kids"
         app:layout_constraintBottom_toTopOf="@id/iv_bricks"
-        app:layout_constraintEnd_toEndOf="@id/iv_bricks"
-        android:src="@drawable/kids" />
+        app:layout_constraintEnd_toEndOf="@id/iv_bricks" />
 
     <ImageView
         android:id="@+id/iv_bricks"
@@ -39,5 +43,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <com.theapache64.republic2020.fireworks.NightScene
+        android:id="@+id/fireworks"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
