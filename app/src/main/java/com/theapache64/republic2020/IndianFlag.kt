@@ -62,7 +62,7 @@ class IndianFlag(context: Context?, attrs: AttributeSet?) : View(context, attrs)
         val lineLeft = pageWidth * 0.25f
         val lineTop = pageHeight * 0.10f
         val lineRight = lineLeft + LINE_WIDTH
-        val lineBottom = pageHeight - lineTop
+        val lineBottom = pageHeight.toFloat()
 
         // Saffron cords
         val safLeft = lineLeft + LINE_WIDTH
@@ -98,7 +98,7 @@ class IndianFlag(context: Context?, attrs: AttributeSet?) : View(context, attrs)
         canvas!!.apply {
 
             // Background
-            drawColor(Color.WHITE)
+            drawColor(Color.TRANSPARENT)
 
             // Line
             drawRect(lineLeft, lineTop, lineRight, lineBottom, towerPaint)
