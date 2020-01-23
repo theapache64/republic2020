@@ -18,12 +18,11 @@ class IndianFlag(context: Context?, attrs: AttributeSet?) : View(context, attrs)
         private const val LINE_WIDTH = 10f
         private const val FLAG_WIDTH_PERC = 0.8f
         private const val FLAG_BORDER_WIDTH = 1f
-        private const val FLAG_COLOR_SECTION_WIDTH = 600f
         private const val FLAG_COLOR_SECTION_HEIGHT = 150f
 
         // Line
         private val towerPaint = Paint().apply {
-            color = Color.BLACK
+            color = Color.parseColor("#36281F") // dark brown
             flags = Paint.ANTI_ALIAS_FLAG
             style = Paint.Style.FILL_AND_STROKE
         }
@@ -135,7 +134,7 @@ class IndianFlag(context: Context?, attrs: AttributeSet?) : View(context, attrs)
         var x2: Double
         var y2: Double
         var d = 0.0
-        bluePaint.strokeWidth = 4f
+        bluePaint.strokeWidth = 2f
         bluePaint.style = Paint.Style.FILL_AND_STROKE
         for (i in 1..SPIKE_COUNT) {
 
