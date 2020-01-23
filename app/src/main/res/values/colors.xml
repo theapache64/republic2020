@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/black</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">@android:color/black</color>
+
+    <color name="flag_saffron">#FF9933</color>
+    <color name="flag_green">#138808</color>
+    <color name="flag_blue">#000080</color>
+</resources>
